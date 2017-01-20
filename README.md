@@ -1,3 +1,3 @@
 # sugar-web
 
-to-do: embed twitter/instagram/facebook feeds & add animations
+to-do: email newsletter, surveys, maps, statistics, buy
