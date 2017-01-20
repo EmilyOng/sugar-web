@@ -18,8 +18,10 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-    var person = prompt("Please enter your name");
-    if (person != null) {
-        document.getElementById("demo").innerHTML =
-        "Hello " + person + "! How are you today?";
-}
+twttr.widgets.createTimeline(
+  {
+    sourceType: "profile",
+    screenName: "fabric"
+  },
+  document.getElementById("container")
+);
